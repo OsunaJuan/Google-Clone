@@ -39,16 +39,18 @@ header nav .nav-rigth-section{
     text-decoration: none;
     margin-right: 1rem;
     color: black;
+    cursor:pointer;
 }
 
 a:hover{
-    opacity: 50%;
+    opacity: 50%    ;
 }
 
 .imgRedonda{
     height: 32px;
     width: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
+    margin-left: 1rem;
 
 }
 
@@ -60,3 +62,38 @@ a:hover{
     width: 32px;
     height: 32px;
 }
+
+main{
+    width: 100%;
+    height: 800px;
+}
+
+main .Main-logo{
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .Main-logo img{
+    margin: 0 auto;
+}
+  
+
+main .main-searchBar{
+ width: inherit;
+ height: 225px;
+ display: flex;
+ justify-content: center;
+}
+
+main .main-searchBar .main-input-container{
+    border-style: solid;
+    border-radius: 10%;
+    height: 44px;
+    width: 582px;
+}
+
+main .main-buttoms{
+    width: inherit;
+    height: 225px;
+}
+
