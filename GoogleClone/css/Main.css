@@ -14,6 +14,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Estilos de la cabezera */
+
 header{
     width: 100%;
     height: 60px;
@@ -42,8 +44,9 @@ header nav .nav-rigth-section{
     cursor:pointer;
 }
 
-a:hover{
-    opacity: 50%    ;
+header nav .nav-rigth-section a:hover{
+    opacity: 50%;
+    text-decoration: underline;
 }
 
 .imgRedonda{
@@ -98,6 +101,7 @@ main .main-searchBar .main-input-container{
     align-items: center;
     justify-content: space-around;
     border-style: solid;
+    border-width: 1px;
     border-radius: 25px 25px 25px 25px ;
     border-color: rgb(185, 181, 181);
 }
@@ -138,6 +142,7 @@ main .main-buttons{
 
 main .main-buttons div .searchButtons{
     background-color: #f8f9fa;
+    font-size: 1.6rem;
     height: 56px;
     width: 187px;
     margin-left: 1rem;
@@ -159,9 +164,9 @@ footer{
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f2f2f2;
-    margin-top: 350px;
+    margin-top: 295px;
     
    
 }
@@ -169,10 +174,12 @@ footer{
 footer .footerLink a{
     color: #70757a;
     text-decoration: none;
-    height: 46px;
-    margin-top: 1rem;
-   
+    padding: 15px;   
 }
+
+footer div a:hover{
+    opacity: 50%;
+    text-decoration: underline;
 }
 
 footer .leftSide{
